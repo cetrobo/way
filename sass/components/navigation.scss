@@ -6,9 +6,8 @@
 .navbar-default{
 	background-color:white !important;
 	color:black;
-}
-.header > .navbar-default{
-    box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+    border-bottom: 1px solid rgba(100, 100, 100, 0.49);
+    box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);    
 }
 .nav{
     padding: 16px 0px;
@@ -36,7 +35,9 @@
 .navbar-header a{
 	height:135px;
 }
-
 .navbar-fixed-top .nav {
     padding: 15px 0;
+}
+.carousel-caption {
+    text-shadow: none !important;
 }
